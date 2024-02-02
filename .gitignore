@@ -1,0 +1,6 @@
+/node_modules/
+package-lock.json
+src/index.js
+configs/*
+/.husky/
+package.json
