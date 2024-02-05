@@ -4,3 +4,4 @@ src/index.js
 configs/*
 /.husky/
 package.json
+**/*.swp
