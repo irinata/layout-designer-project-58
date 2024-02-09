@@ -5,3 +5,4 @@ configs/*
 /.husky/
 package.json
 **/*.swp
+public
