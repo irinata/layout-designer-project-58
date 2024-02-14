@@ -1,6 +1,8 @@
 :root {
 	--white: #fff;
 	--main: #fe8a02;
+	--dark: #2a2626;
+	--mdark: #42413c;
 }
 
 @font-face {
@@ -25,12 +27,12 @@ body {
 	font-family: "Open Sans";
 	font-size: 16px;
 	line-height: 1.6em;
-	color: #2a2626;
+	color: var(--dark);
 
 	margin: 0;
 }
 
-section::before {
+.s-b::before {
 	content: "";
 
 	position: absolute;
@@ -92,14 +94,24 @@ h1 {
 	column-gap: 30px;
 }
 
-.h-mb {
+.h-mb185 {
 	margin-bottom: 185px;
 }
 
+.m-b30 {
+	margin-bottom: 30px;
+}
+
+.ta-c {
+	text-align: center;
+}
+
+.col-tc {
+	color: #212529;
+}
+
 .b-pos {
-	position: absolute;
-	top: 765px;
-	left: 735px;
+	margin-top: 24px;
 }
 
 .b-p {
@@ -122,11 +134,39 @@ h1 {
 	text-transform: uppercase;
 }
 
+.video {
+	position: absolute;
+	top: 329px;
+	left: 261px;
+}
+
+.d-sh {
+	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.rect {
+	position: absolute;
+	left: 0;
+
+	margin-top: 485px;
+
+	width: 1440px;
+	height: 100px;
+}
+
+.rect-col {
+	background-color: var(--mdark);
+}
+
 .s-opts {
 	width: 1110px;
 
 	margin: auto;
 	padding: 100px 165px;
+}
+
+.ex-p {
+	padding: 585px 165px 100px;
 }
 
 .col-wt {
@@ -145,13 +185,13 @@ h1 {
 	color: var(--main);
 }
 
-/*.col-main-dark {*/
-/*color: #42413c;*/
-/*}*/
+.col-mdark {
+	color: var(--mdark);
+}
 
-/*.col-dark {*/
-/*color: #2a2626;*/
-/*}*/
+.col-dark {
+	color: var(--dark);
+}
 
 /*.col-dark-op {*/
 /*color: #908d8b;*/
@@ -169,9 +209,9 @@ h1 {
 	font-size: 72px;
 }
 
-/*.h2-sz {*/
-/*font-size: 60px;*/
-/*}*/
+.h2-sz {
+	font-size: 60px;
+}
 
 /*.h3-sz {*/
 /*font-size: 34px;*/
