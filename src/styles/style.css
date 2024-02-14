@@ -68,7 +68,8 @@ body {
 	height: 525px;
 }
 
-h1 {
+h1,
+h2 {
 	margin: 0;
 	font-weight: 400;
 }
@@ -119,7 +120,7 @@ h1 {
 }
 
 .fw-b {
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .bor-n {
@@ -135,26 +136,15 @@ h1 {
 }
 
 .video {
-	position: absolute;
-	top: 329px;
-	left: 261px;
-}
-
-.d-sh {
 	filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.rect {
-	position: absolute;
-	left: 0;
-
-	margin-top: 485px;
-
-	width: 1440px;
-	height: 100px;
+.v-pos {
+	display: flex;
+	justify-content: center;
 }
 
-.rect-col {
+.bg-col-mdark {
 	background-color: var(--mdark);
 }
 
@@ -165,8 +155,13 @@ h1 {
 	padding: 100px 165px;
 }
 
-.ex-p {
-	padding: 585px 165px 100px;
+.ex-mp {
+	margin-top: -184px;
+	padding-top: 200px;
+}
+
+.h-sz {
+	font-size: 52px;
 }
 
 .col-wt {
