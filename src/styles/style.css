@@ -49,6 +49,8 @@ body {
 	background-size: cover;
 
 	opacity: 10%;
+
+	z-index: -1;
 }
 
 .p-rl {
@@ -69,9 +71,23 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	margin: 0;
 	font-weight: 400;
+}
+
+.button {
+	width: 148px;
+	padding: 12px 24px;
+	margin-top: 40px;
+	box-sizing: border-box;
+
+	cursor: pointer;
+}
+
+.decor-none {
+	text-decoration: none;
 }
 
 .z1 {
@@ -111,24 +127,16 @@ h2 {
 	color: #212529;
 }
 
-.b-pos {
-	margin-top: 24px;
-}
-
-.b-p {
-	padding: 12px 24px;
-}
-
-.fw-b {
+.f-bold {
 	font-weight: bold;
 }
 
-.bor-n {
-	border: none;
+.bg-main {
+	background-color: var(--main);
 }
 
-.bg-c-main {
-	background-color: var(--main);
+.bg-white {
+	background-color: var(--white);
 }
 
 .tt-upp {
@@ -144,7 +152,7 @@ h2 {
 	justify-content: center;
 }
 
-.bg-col-mdark {
+.bg-mdark {
 	background-color: var(--mdark);
 }
 
@@ -164,7 +172,45 @@ h2 {
 	font-size: 52px;
 }
 
-.col-wt {
+#navigation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	gap: 20px;
+}
+
+.flex-item {
+	flex: 1 0 350px;
+}
+
+nav a {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 24px;
+}
+
+nav p {
+	margin-bottom: 0px;
+}
+
+.f-size64 {
+	font-size: 64px;
+}
+
+.l-h1 {
+	line-height: 1;
+}
+
+.block {
+	display: block;
+}
+
+.p-b40 {
+	padding-bottom: 40px;
+}
+
+.col-white {
 	color: var(--white);
 }
 
@@ -208,14 +254,18 @@ h2 {
 	font-size: 60px;
 }
 
-/*.h3-sz {*/
-/*font-size: 34px;*/
-/*}*/
+.h3-sz {
+	font-size: 34px;
+}
 
 .h-lh {
 	line-height: 1.2em;
 }
 
-.h-font {
+.font-neucha {
 	font-family: Neucha;
+}
+
+.font-osans {
+	font-family: "Open Sans";
 }
