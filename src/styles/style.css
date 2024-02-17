@@ -125,7 +125,6 @@ h3 {
 }
 
 .column2 {
-	/*columns: 540px 2;*/
 	column-count: 2;
 	column-gap: 30px;
 }
@@ -219,6 +218,14 @@ nav a {
 	height: 100%;
 	box-sizing: border-box;
 	padding: 24px;
+}
+
+nav a:hover {
+	background-color: var(--main);
+}
+
+nav a:hover * {
+	color: var(--white);
 }
 
 nav p {
