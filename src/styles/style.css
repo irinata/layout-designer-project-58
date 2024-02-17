@@ -6,6 +6,7 @@
 	--light: #f5f4f0;
 	--trdark: #908d8b;
 	--brown: #b09a81;
+	--dorange: #ea7600;
 }
 
 @font-face {
@@ -102,6 +103,10 @@ h3 {
 	box-sizing: border-box;
 
 	cursor: pointer;
+}
+
+.button:hover {
+	background-color: var(--dorange);
 }
 
 .decor-none {
