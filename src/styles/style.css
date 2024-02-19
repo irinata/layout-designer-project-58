@@ -288,11 +288,12 @@ nav p {
 }
 
 .img1,
-.img2 {
+.img2,
+.img3 {
 	vertical-align: middle;
 }
 
-[position="ikea-effect-header"] {
+[position="text-right"] {
 	position: absolute;
 	top: 100px;
 	left: 773px;
@@ -314,7 +315,8 @@ h4 {
 	padding-left: 10px;
 }
 
-#ikea-effect h4 {
+#ikea-effect h4,
+#distortion-of-novelty h4 {
 	background-color: var(--brown);
 }
 
