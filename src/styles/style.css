@@ -152,6 +152,10 @@ h3 {
 	padding-bottom: 208px;
 }
 
+.p-b167 {
+	padding-bottom: 167px;
+}
+
 .ta-c {
 	text-align: center;
 }
@@ -243,11 +247,10 @@ nav p {
 	margin-bottom: 0px;
 }
 
-#ikea-effect p {
-	margin-bottom: 0px;
-}
-
-#premature-optimization p {
+#ikea-effect p,
+#premature-optimization p,
+#distortion-of-novelty p,
+#hyperbolic-depreciation p {
 	margin-bottom: 0px;
 }
 
@@ -299,7 +302,7 @@ nav p {
 	left: 773px;
 }
 
-[position="prem-optimization-image"] {
+[position="text-left"] {
 	position: absolute;
 	top: 100px;
 	right: 165px;
@@ -320,7 +323,8 @@ h4 {
 	background-color: var(--brown);
 }
 
-#premature-optimization h4 {
+#premature-optimization h4,
+#hyperbolic-depreciation h4 {
 	background-color: var(--white);
 }
 
