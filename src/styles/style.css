@@ -250,11 +250,8 @@ nav p {
 #ikea-effect p,
 #premature-optimization p,
 #distortion-of-novelty p,
-#hyperbolic-depreciation p {
-	margin-bottom: 0px;
-}
-
-.m-b0 {
+#hyperbolic-depreciation p,
+#errors-in-planning p:not(.not-mb0) {
 	margin-bottom: 0px;
 }
 
@@ -292,7 +289,9 @@ nav p {
 
 .img1,
 .img2,
-.img3 {
+.img3,
+.img4,
+.img5 {
 	vertical-align: middle;
 }
 
@@ -319,7 +318,8 @@ h4 {
 }
 
 #ikea-effect h4,
-#distortion-of-novelty h4 {
+#distortion-of-novelty h4,
+#errors-in-planning h4 {
 	background-color: var(--brown);
 }
 
