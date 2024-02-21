@@ -8,6 +8,8 @@
 	--brown: #b09a81;
 	--dorange: #ea7600;
 	--trwhite: #d7ccc0;
+	--blue: #1085c5;
+	--black: #000;
 }
 
 @font-face {
@@ -98,7 +100,11 @@ h3 {
 	font-size: 34px;
 }
 
-.button {
+.d-flex {
+	display: flex;
+}
+
+.btn {
 	width: 148px;
 	padding: 12px 24px;
 	margin-top: 40px;
@@ -107,8 +113,80 @@ h3 {
 	cursor: pointer;
 }
 
-.button:hover {
+.btn:hover,
+.btn-send:hover {
 	background-color: var(--dorange);
+}
+
+.btn-send {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	width: 70px;
+	height: 50px;
+
+	border: none;
+}
+
+.btn-send::before {
+	content: "";
+
+	display: block;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url("/images/send.svg");
+}
+
+.f-div {
+	display: flex;
+	align-items: center;
+
+	height: 190px;
+	padding: 55px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+
+	background-color: #2a2626;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+
+	margin-left: 122px;
+}
+
+label {
+	font-size: 18px;
+
+	padding-bottom: 9px;
+}
+
+input {
+	flex-grow: 1;
+
+	height: 50px;
+	padding: 15px;
+	box-sizing: border-box;
+
+	border: none;
+	outline: none;
+}
+
+input::placeholder {
+	opacity: 20%;
+	color: #757575;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .decor-none {
@@ -123,8 +201,14 @@ h3 {
 	z-index: 2;
 }
 
-.column2 p {
+.column2 p,
+.contact p,
+form p {
 	margin-top: 0;
+}
+
+.contact p {
+	margin-bottom: 16px;
 }
 
 .b-i-a {
@@ -184,6 +268,10 @@ h3 {
 	background-color: var(--brown);
 }
 
+.bg-mdark {
+	background-color: var(--mdark);
+}
+
 .tt-upp {
 	text-transform: uppercase;
 }
@@ -195,10 +283,6 @@ h3 {
 .v-pos {
 	display: flex;
 	justify-content: center;
-}
-
-.bg-mdark {
-	background-color: var(--mdark);
 }
 
 .s-opts {
@@ -255,6 +339,8 @@ nav p {
 	margin-bottom: 0px;
 }
 
+margin-top: 0px;
+
 .f-size64 {
 	font-size: 64px;
 }
@@ -269,6 +355,10 @@ nav p {
 
 .f-size14 {
 	font-size: 14px;
+}
+
+.f-size12 {
+	font-size: 12px;
 }
 
 .l-h1 {
@@ -360,9 +450,13 @@ h4 {
 	color: var(--brown);
 }
 
-/*.col-blue {*/
-/*color: #1085c5;*/
-/*}*/
+.col-blue {
+	color: var(--blue);
+}
+
+.col-black {
+	color: var(--black);
+}
 
 .font-neucha {
 	font-family: Neucha;
