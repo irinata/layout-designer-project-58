@@ -61,7 +61,7 @@ body {
 }
 
 .p-t21 {
-	padding-top: 21px;
+	padding-top: 18px;
 }
 
 .p-t20 {
@@ -338,8 +338,6 @@ nav p {
 #errors-in-planning p:not(.not-mb0) {
 	margin-bottom: 0px;
 }
-
-margin-top: 0px;
 
 .f-size64 {
 	font-size: 64px;
