@@ -147,10 +147,8 @@ h3 {
 
 	height: 190px;
 	padding: 55px;
-	margin-bottom: 60px;
+	margin-bottom: 76px;
 	box-sizing: border-box;
-
-	background-color: #2a2626;
 }
 
 form {
@@ -179,7 +177,7 @@ input {
 }
 
 input::placeholder {
-	opacity: 20%;
+	/*opacity: 20%;*/
 	color: #757575;
 }
 
@@ -293,8 +291,8 @@ form p {
 }
 
 .ex-mp {
-	margin-top: -200px;
-	padding-top: 200px;
+	margin-top: -184px;
+	padding-top: 184px;
 }
 
 .h-sz {
