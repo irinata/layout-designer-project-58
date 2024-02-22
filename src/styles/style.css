@@ -177,7 +177,6 @@ input {
 }
 
 input::placeholder {
-	/*opacity: 20%;*/
 	color: #757575;
 }
 
@@ -279,8 +278,16 @@ form p {
 }
 
 .v-pos {
-	display: flex;
-	justify-content: center;
+	position: relative;
+
+	height: 385px;
+}
+
+.video {
+	position: absolute;
+	left: 50%;
+
+	transform: translateX(-50%);
 }
 
 .s-opts {
@@ -291,7 +298,6 @@ form p {
 }
 
 .ex-mp {
-	margin-top: -184px;
 	padding-top: 184px;
 }
 
