@@ -77,6 +77,10 @@ body {
 	height: 525px;
 }
 
+.xclip {
+	overflow-x: clip;
+}
+
 h1,
 h2,
 h3 {
@@ -298,7 +302,7 @@ form p {
 }
 
 .ex-mp {
-	padding-top: 204px;
+	padding-top: 200px;
 }
 
 .h-sz {
