@@ -305,7 +305,7 @@ form p {
 	font-size: 52px;
 }
 
-#navigation {
+.nav-menu {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
